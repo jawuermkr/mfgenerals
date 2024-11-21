@@ -34,7 +34,7 @@
           </li>
         </ul>
         <span class="navbar-text">
-          Navbar text with an inline element
+          40-26 82nd Street 2FL of # 2, Jackson Heights, NY 11373
         </span>
       </div>
     </div>
@@ -46,9 +46,73 @@
     </div>
   </div>
 
-  <div>
-    <p>Patata</p>
+  <div class="frase">
+    <div class="text-center">
+      <p class="text-frase">"Seguridad, confianza y calidad en cada servicio."</p>
+    </div>
   </div>
+
+  <div class="one">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="img/001.jpg" alt="one" width="100%">
+      </div>
+      <div class="col-md-6 p-5">
+        <h2> Servicios de inmigración </h2>
+        <hr>
+        <p>
+          Peticiones familiares.</br>
+          Ajuste de Status.</br>
+          Renovación residencia.</br>
+          Renovación permiso</br>
+          de trabajo.</br>
+          Vawa.</br>
+          Visa U.</br>
+          TPS.</br>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="one">
+    <div class="row">
+      <div class="col-md-6 p-5">
+        <h2> Servicios de impuestos </h2>
+        <hr>
+        <p>
+          Tax services.</br>
+          ITIN / Tax ID Number.</br>
+          Tax preparer.</br>
+        </p>
+        </br>
+        <h2> Servicios empresariales </h2>
+        <hr>
+        <p>
+          Business formation Corp</br>
+          Corporation, Bookkeeping & Payroll.</br>
+          LLC & INC.</br>
+        </p>
+      </div>
+      <div class="col-md-6">
+        <img src="img/002.jpg" alt="one" width="100%">
+      </div>
+    </div>
+  </div>
+
+  <footer class="p-5 text-center">
+    <div class="row">
+      <div class="col-md-4">
+        <p> Menú </p>
+      </div>
+      <div class="col-md-4">
+        <p> MF GENERAL SERVICES NYC </br>
+          2024 | Todos los derechos reservados </p>
+      </div>
+      <div class="col-md-4">
+        <p>Redes Sociales</p>
+      </div>
+    </div>
+  </footer>
 
 </body>
 
