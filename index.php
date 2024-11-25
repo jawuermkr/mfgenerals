@@ -41,14 +41,17 @@
   </nav>
 
   <div class="header">
-    <div class="p-5 text-center">
+    <video autoplay muted loop>
+      <source src="video/portada.mp4" type="video/mp4" />
+    </video>
+    <div class="p-5 text-center caption">
       <img src="img/logo.png" alt="logo" width="30%">
     </div>
   </div>
 
   <div class="frase">
     <div class="text-center">
-      <p class="text-frase">"Seguridad, confianza y calidad en cada servicio."</p>
+      <p class="text-frase">ITIN NUMBER SIN ENVIAR PASAPORTE</p>
     </div>
   </div>
 
@@ -99,17 +102,86 @@
     </div>
   </div>
 
-  <footer class="p-5 text-center">
+  <div class="row my-5 p-5">
+    <div class="col-md-4 text-center card p-3">
+      <img src="img/profile01.jpg" class="rounded-circle" alt="profile pic" width="90px">
+      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+      <p class="firma text-end">- Patata -</p>
+    </div>
+    <div class="col-md-4 text-center card p-3">
+      <img src="img/profile01.jpg" class="rounded-circle" alt="profile pic" width="90px">
+      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+      <p class="firma text-end">- Patata -</p>
+    </div>
+    <div class="col-md-4 text-center card p-3">
+      <img src="img/profile01.jpg" class="rounded-circle" alt="profile pic" width="90px">
+      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+      <p class="firma text-end">- Patata -</p>
+    </div>
+  </div>
+
+  <div class="two my-5">
+    <div class="row p-5">
+      <div class="col-md-4 text-center">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/INMI 1.jpg" alt="foto" width="90%">
+            </div>
+            <div class="carousel-item">
+              <img src="img/INMI 2.jpg" alt="foto" width="90%">
+            </div>
+            <div class="carousel-item">
+              <img src="img/INMI 3.jpg" alt="foto" width="90%">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      </div>
+      <div class="col-md-6">
+        <h2>¡Contacta con nuestrp equipo!</h2>
+        <form action="index.php" method="post">
+          <label>Nombre</label>
+          <input class="form-control" type="text">
+          <label>Dirección electrónica</label>
+          <input class="form-control" type="text">
+          <label>Número celular</label>
+          <input class="form-control" type="text">
+          <label>Número celular</label>
+          <textarea class="form-control" type="text"></textarea>
+          <input class="form-control btn btn-success" type="text" value="Enviar">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer p-5 text-center">
     <div class="row">
       <div class="col-md-4">
-        <p> Menú </p>
+        <p class="footer">
+          Contáctenos<br />
+          <hr>
+          8402 Roosevelt Avenue Bsmt Suite L14<br />
+          Jackson Heights, NY 11372<br />
+          (929) 227 - 6534<br />
+          (929) 320 - 7423<br />
+          mfgenerals@gmail.com<br />
+        </p>
       </div>
       <div class="col-md-4">
-        <p> MF GENERAL SERVICES NYC </br>
+        <p class="footer"> MF GENERAL SERVICES NYC </br>
           2024 | Todos los derechos reservados </p>
       </div>
       <div class="col-md-4">
-        <p>Redes Sociales</p>
+        <p class="footer">Redes Sociales</p>
       </div>
     </div>
   </footer>
