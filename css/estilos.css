@@ -7,8 +7,16 @@ p {
   font-size: 24px;
 }
 
+.bi {
+  font-size: 42px !important;
+  background: -webkit-linear-gradient(rgb(255, 230, 0), rgb(255, 248, 216));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 0px 15px 0px 15px;
+}
+
 .two {
-  background-image: url("../img/header.jpg");
+  background-image: url("../img/007.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
