@@ -178,16 +178,16 @@
         <img src="img/009.jpg" alt="imagen de pareja" width="60%">
       </div>
       <div class="col-md-7">
-        <form action="index.php" method="post">
+        <form action="enviar.php" method="post">
           <label>Nombre</label>
-          <input class="form-control" type="text">
+          <input class="form-control" name="nombre" type="text">
           <label>Dirección electrónica</label>
-          <input class="form-control" type="text">
+          <input class="form-control" name="email" type="text">
           <label>Número celular</label>
-          <input class="form-control" type="text">
-          <label>Detalles</label>
-          <textarea class="form-control" type="text"></textarea>
-          <input class="form-control btn btn-success" type="text" value="Enviar">
+          <input class="form-control" name="celular" type="text">
+          <label>Mensaje</label>
+          <textarea class="form-control" name="mensaje" type="text"></textarea>
+          <input class="form-control btn btn-success" type="submit" name="btnS" value="Enviar">
         </form>
       </div>
     </div>
