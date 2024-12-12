@@ -10,11 +10,12 @@ if (isset($_POST['btnS'])) {
   $mensaje = $_SESSION['mensaje'];
 
   $correo = "verdaluno@gmail.com";
+  //$correo = "mfgenerals@gmail.com";
 
   mail($correo, "MFGenerals Web | " . $nombre . " ", $mensaje . "... Enviado por: " . $nombre . " Email: " . $email . " Número de contato: " . $celular);
 
   echo "<script>
-    alert('Gracias por enviar tus comentarios.');
+    alert('Gracias por enviar tu mensaje, proto nos pondrémos en contacto.');
     window.location= 'index.php'
   </script>";
 }

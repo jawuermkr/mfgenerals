@@ -10,10 +10,16 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="img/logo.png">
+
 
 </head>
 
 <body>
+  <!--- WhatsApp Flotante --->
+  <a href="https://api.whatsapp.com/send?phone=19293207423" class="whatsapp" target="_blank"> <i class="bi bi-whatsapp whatsapp-icon"></i></a>
+  <!--- WhatsApp Flotante --->
+
   <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">MF GENERAL SERVICES NYC</a>
@@ -68,6 +74,7 @@
         <h2> Servicios de inmigración </h2>
         <hr>
         <p>
+          Asylum, Cambio de condicion de residencia.</br>
           Peticiones familiares.</br>
           Ajuste de Status.</br>
           Renovación residencia.</br>
@@ -86,8 +93,11 @@
         <h2> Servicios de impuestos </h2>
         <hr>
         <p>
-          Impuestos personales & corporativos.</br>
-          ITIN / Tax ID Number.</br>
+          Impuestos personales.</br>
+          Impuestos corporativos.</br>
+          Sales TAXES.</br>
+          ITIN/ TAX ID number.</br>
+          <b>SIN ENVIAR PASAPORTE</b></br>
         </p>
       </div>
       <div class="col-md-6">
@@ -109,9 +119,11 @@
         <h2> Servicios empresariales</h2>
         <hr>
         <p>
-          Business formation Corp.</br>
-          Corporation, Bookkeeping & Payroll.</br>
-          LLC & INC.</br>
+          Corporation</br>
+          INC</br>
+          LLC</br>
+          LICENCIAS</br>
+          BOOKEEPING & PAYROLL</br>
         </p>
       </div>
     </div>
@@ -157,9 +169,11 @@
         <h2> Servicios adicionales </h2>
         <hr>
         <p>
-          Oficiantes de bodas.</br>
-          Divorcio.</br>
-          Health & life Insurances.</br>
+          Oficiantes de bodas (En nuestras oficinas o lugar de preferencia)</br>
+          Traduciones</br>
+          Divorcios</br>
+          Health & Life Insurances</br>
+          Elaboracion de cartas en ingles y espanol</br>
         </p>
       </div>
       <div class="col-md-6">

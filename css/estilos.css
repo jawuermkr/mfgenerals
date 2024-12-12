@@ -7,7 +7,7 @@ p {
   font-size: 24px;
 }
 
-.bi {
+footer .bi {
   font-size: 42px !important;
   background: -webkit-linear-gradient(rgb(255, 230, 0), rgb(255, 248, 216));
   -webkit-background-clip: text;
@@ -26,6 +26,9 @@ p {
   padding: 90px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 36px;
+  background: -webkit-linear-gradient(rgb(255, 230, 0), rgb(255, 248, 216));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .firma {
@@ -52,6 +55,26 @@ p {
   position: relative;
   text-align: center;
   padding: 10px;
+}
+
+/* WhatsApp */
+
+.whatsapp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF !important;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+}
+
+.whatsapp-icon {
+  margin-top: 18px;
 }
 
 .footer {
