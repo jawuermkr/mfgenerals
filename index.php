@@ -129,7 +129,7 @@
     </div>
   </div>
 
-  <div class="row two my-5 p-5" id="clientes">
+  <!-- <div class="row two my-5 p-5" id="clientes">
     <div class="col-md-12">
       <h2>Testimonios</h2>
       <hr>
@@ -161,7 +161,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <div class="one">
     <div class="row">
