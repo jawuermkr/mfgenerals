@@ -9,8 +9,8 @@ if (isset($_POST['btnS'])) {
   $celular = $_SESSION['celular'];
   $mensaje = $_SESSION['mensaje'];
 
-  $correo = "verdaluno@gmail.com";
-  //$correo = "mfgenerals@gmail.com";
+  //$correo = "verdaluno@gmail.com";
+  $correo = "mfgenerals@gmail.com";
 
   mail($correo, "MFGenerals Web | " . $nombre . " ", $mensaje . "... Enviado por: " . $nombre . " Email: " . $email . " Número de contato: " . $celular);
 
