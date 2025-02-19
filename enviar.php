@@ -4,11 +4,11 @@ ob_start();
 
 if (isset($_POST['btnS'])) {
 
-  $nombre = $_SESSION['nombre'];
-  $email = $_SESSION['email'];
-  $celular = $_SESSION['celular'];
-  $mensaje = $_SESSION['mensaje'];
-  $bot = $_SESSION['mensaje'];
+  $nombre = $_POST['nombre'];
+  $email = $_POST['email'];
+  $celular = $_POST['celular'];
+  $mensaje = $_POST['mensaje'];
+  $bot = $_POST['mensaje'];
 
   $correo = "verdaluno@gmail.com";
   //$correo = "mfgenerals@gmail.com";
