@@ -201,6 +201,8 @@
           <input class="form-control" name="celular" type="text">
           <label>Mensaje</label>
           <textarea class="form-control" name="mensaje" type="text"></textarea>
+          <label><small>Escribe "dorado" sin comillas a continuación para validar que no eres un robot.</small></label>
+          <input class="form-control" name="bot" type="text">
           <input class="form-control btn btn-success" type="submit" name="btnS" value="Enviar">
         </form>
       </div>
