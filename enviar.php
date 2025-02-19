@@ -12,10 +12,10 @@ if (isset($_POST['btnS'])) {
 
   $correo = "verdaluno@gmail.com";
   //$correo = "mfgenerals@gmail.com";
+
   if ($bot == "dorado" || $bot == "Dorado" || $bot == "DORADO") {
     mail($correo, "MFGenerals Web | " . $nombre . " ", $mensaje . "... Enviado por: " . $nombre . " Email: " . $email . " Número de contato: " . $celular);
   }
-
   echo "<script>
     alert('Gracias por enviar tu mensaje, proto nos pondrémos en contacto.');
     window.location= 'index.php'

@@ -129,7 +129,7 @@
     </div>
   </div>
 
-  <div class="row two my-5 p-5" id="clientes">
+  <!-- <div class="row two my-5 p-5" id="clientes">
     <div class="col-md-12">
       <h2>Testimonios</h2>
       <hr>
@@ -161,7 +161,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <div class="one">
     <div class="row">
@@ -175,6 +175,10 @@
           Health & Life Insurances</br>
           Elaboracion de cartas en ingles y espanol</br>
         </p>
+        <center>
+          <img src="img/IRS.png" alt="logoirs" width="30%">
+          <img src="img/EFILE.png" alt="logoefile" width="30%">
+        </center>
       </div>
       <div class="col-md-6">
         <div data-aos="fade-left">
