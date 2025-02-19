@@ -8,10 +8,10 @@ if (isset($_POST['btnS'])) {
   $email = $_POST['email'];
   $celular = $_POST['celular'];
   $mensaje = $_POST['mensaje'];
-  $bot = $_POST['mensaje'];
+  $bot = $_POST['bot'];
 
-  $correo = "verdaluno@gmail.com";
-  //$correo = "mfgenerals@gmail.com";
+  //$correo = "verdaluno@gmail.com";
+  $correo = "mfgenerals@gmail.com";
 
   if ($bot == "dorado" || $bot == "Dorado" || $bot == "DORADO") {
     mail($correo, "MFGenerals Web | " . $nombre . " ", $mensaje . "... Enviado por: " . $nombre . " Email: " . $email . " Número de contato: " . $celular);

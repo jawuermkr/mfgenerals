@@ -200,7 +200,7 @@
           <label>Nombre</label>
           <input class="form-control" name="nombre" type="text">
           <label>Dirección electrónica</label>
-          <input class="form-control" name="email" type="text">
+          <input class="form-control" name="email" type="email">
           <label>Número celular</label>
           <input class="form-control" name="celular" type="text">
           <label>Mensaje</label>
